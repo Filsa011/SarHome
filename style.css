@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #263238;
+}
+
+
+.navbar {
+    background-color: #1f3a5f !important;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    font-weight: 700;
+    color: white !important;
+}
+
+.navbar-brand span {
+    color: #8ecae6;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #8ecae6 !important;
+}
+
+
+.hero {
+  min-height: 600px;
+    display: flex;
+    align-items: center;
+
+    background-image:
+        linear-gradient(
+            rgba(31, 58, 95, 0.65),
+            rgba(31, 58, 95, 0.65)
+        ),
+        url("image/main.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/* =========================
+   ЗАГОЛОВКИ СЕКЦИЙ
+   ========================= */
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #1f3a5f;
+}
+
+
+/* =========================
+   КАРТОЧКИ КВАРТИР
+   ========================= */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #1f3a5f;
+    font-weight: 600;
+}
+
+.price {
+    color: #2a9d8f;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   КНОПКИ
+   ========================= */
+
+.btn-sarhome {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-sarhome:hover {
+    background-color: #238579;
+    color: white;
+}
+
+
+/* =========================
+   ПОДВАЛ
+   ========================= */
+
+footer {
+    background-color: #1f3a5f;
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer h5 {
+    font-weight: 600;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+
+/* =========================
+   АДАПТИВНОСТЬ
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 400px;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+}
+.footer-link {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #8ecae6 !important;
+}
